@@ -2,11 +2,20 @@ import React, { Component } from "react";
 import ArtistLink from "./ArtistLink";
 import { Card } from "semantic-ui-react";
 import { Container } from "semantic-ui-react";
+import Search from "./Search";
 
 class ArtistContainer extends React.Component {
-  // state = {
-  //   searchTerm:""
-  // }
+  state = {
+    searchTerm: "",
+  };
+
+  changeSearchTerm = (eventObj) => {
+    this.setState({
+      searchTerm:eventObj.target.value
+    })
+  };
+
+  
 
   arrayOfComponents = () => {
     return this.props.artists.map((singularArtistObj) => {
@@ -20,9 +29,14 @@ class ArtistContainer extends React.Component {
     });
   };
   render() {
-    console.log(this.arrayOfComponents())
+    console.log(this.arrayOfComponents());
     return (
       <Container textAlign="center">
+        <Search
+          searchTerm={this.state.searchTerm}
+          changeSearchTerm={this.changeSearchTerm}
+        />
+        <br />
         <Card.Group>{this.arrayOfComponents()} </Card.Group>
       </Container>
     );
