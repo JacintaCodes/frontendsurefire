@@ -15,10 +15,19 @@ class ArtistContainer extends React.Component {
     })
   };
 
-  
+  filterArtists = (arrayOfArtists) => {
+    let filteredArtists = arrayOfArtists.filter(artist => {
+      if(artist.name.includes(this.state.searchTerm)){
+        return artist;
+      }
+    })
+
+    return this.state.searchTerm.trim() === "" ? arrayOfArtists : filteredArtists;
+  }
 
   arrayOfComponents = () => {
-    return this.props.artists.map((singularArtistObj) => {
+    const artists = this.filterArtists(this.props.artists)
+    return artists.map((singularArtistObj) => {
       return (
         <ArtistLink
           key={singularArtistObj.id}
