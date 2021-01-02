@@ -35,7 +35,7 @@
   Coming soon
  
  ## Contact 
- twitter: [![alt text][http://i.imgur.com/tXSoThF.png ]][http://www.twitter.com/jacintacodes]
+ twitter: [![github-readme-twitter](https://github-readme-twitter.gazf.vercel.app/api?id=jacintacodes)](https://github.com/gazf/github-readme-twitter)
  
 
  
