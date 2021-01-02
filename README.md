@@ -1,4 +1,4 @@
-<h1>Surefire Studio (frontend) </h1>
+<h1>Welcome to Surefire Studio's (the frontend) </h1>
 <br>
 
 
@@ -7,17 +7,35 @@
  ### Table of Contents
 
  **[About The Project](#about-the-project)**<br> 
+ **[Technologies](#technologies)**<br>
  **[Installation](#installation)**<br>
+ **[Demo Vido](#demo)**<br>
  **[Contact](#contact)**<br>
      
  ### About The Project 
  <h4 align="center"> Surefire Studio is an app created for a music studio. That keeps track of incoming artists and current artists activities in the studio. </h4>
  
- ### Installation
- To pull the repo ....
+### Technologies
+<ul>
+ <li>Javascript</li>
+ <li> React</li>
+</ul>
+
+
+### Installation
+<ol>
+<li>Open the repository in github: https://github.com/sarahmr63089/ruby-project-alt-guidelines-nyc04-seng-ft-053120 </li>
+ <li>Click on the green code button. </li>
+ <li>Copy and paste the link. </li>
+ <li>Go to your computers terminal and make sure you are in the correct directory. </li>
+ <li>Git clone the file.</li>
+</ul>
  
+ ### Demo Video
+  Coming soon
  
- ## Contact
- email: Jacintacodes@gmail.com
- twitter: @JacintaCodes
+ ## Contact 
+ twitter: [![alt text][1.1]][1]
+ [1.1]: http://i.imgur.com/tXSoThF.png 
+ [1]: http://www.twitter.com/jacintacodes
  
