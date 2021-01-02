@@ -1,4 +1,4 @@
-<h1>Welcome to Surefire Studio's (the frontend) </h1>
+<h1>Welcome to Surefire Studio Bookings (the frontend) </h1>
 <br>
 
 
