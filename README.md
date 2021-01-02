@@ -35,7 +35,7 @@
   Coming soon
  
  ## Contact 
- twitter: [![alt text][1.1]][1]
- [1.1]: http://i.imgur.com/tXSoThF.png 
- [1]: http://www.twitter.com/jacintacodes
+ twitter: [![alt text][http://i.imgur.com/tXSoThF.png ]][http://www.twitter.com/jacintacodes]
+ 
+
  
