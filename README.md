@@ -24,7 +24,7 @@
 
 ### Installation
 <ol>
-<li>Open the repository in github: https://github.com/sarahmr63089/ruby-project-alt-guidelines-nyc04-seng-ft-053120 </li>
+<li>Open the repository in github: https://github.com/JacintaCodes/frontendsurefire </li>
  <li>Click on the green code button. </li>
  <li>Copy and paste the link. </li>
  <li>Go to your computers terminal and make sure you are in the correct directory. </li>
