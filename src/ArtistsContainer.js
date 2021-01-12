@@ -48,7 +48,7 @@ class ArtistContainer extends React.Component {
         <br />
         <Card.Group>{this.arrayOfComponents()} </Card.Group>
       </Container>
-    );
+    ); 
   }
   // create a new Component thats called artist link -- send a singular artist object down to
   // the artist link and display their name as a link

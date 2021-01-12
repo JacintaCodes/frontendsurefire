@@ -1,4 +1,5 @@
 import React from 'react'
+import { Form, Input } from 'semantic-ui-react'
 
 class Search extends React.Component{ 
     // state = {
@@ -18,13 +19,26 @@ class Search extends React.Component{
         
         console.log(this.props)
          return (
-             <form>
+           
+             <Form>
+                <Form.Field inline>
+                <label>Search</label>
                  <input
                    name = "searchTerm"
+                   placeholder = "Name"
                    value = {this.props.searchTerm}
                    onChange={this.handleInputChange}
                  />
-             </form>
+                 </Form.Field>
+             </Form>
+
+          //    <Form>
+          //    <Form.Field>
+          //      <label>User Input</label>
+          //      <input />
+          //    </Form.Field>
+          //  </Form>
+       
          )
      }
 
