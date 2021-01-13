@@ -35,7 +35,7 @@ class Artist extends React.Component{
                 console.log(deletedObj);
                  this.props.deleteArtistFromState(deletedObj.id)
           })
-            //this.props.routerProps.history.push("/artists")
+            this.props.routerProps.history.push("/artists")
     }
 
    
