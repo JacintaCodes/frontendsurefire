@@ -3,13 +3,13 @@ import {Menu, Segment} from 'semantic-ui-react'
 import {Link} from "react-router-dom"
 
 class NavBar extends React.Component{
-    state = { activeItem: 'home' }
+    state = { activeItem: "" }
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
   render() {
     const { activeItem } = this.state
-
+    console.log(this.state.activeItem)
     return (
       <Segment inverted>
         <Menu inverted pointing secondary>
@@ -20,13 +20,6 @@ class NavBar extends React.Component{
             active={activeItem === 'home'}
             onClick={this.handleItemClick}
           />
-          {/* <Menu.Item
-            name='Schedule A Session'
-            as = {Link}
-            to = {"/events"}
-            active={activeItem === 'Schedule A Session'}
-            onClick={this.handleItemClick}
-          /> */}
           <Menu.Item
             name='Surefire Artists'
             as = {Link}
