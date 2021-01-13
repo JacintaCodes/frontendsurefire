@@ -5,7 +5,7 @@ import {Image, Card, Icon} from "semantic-ui-react"
 class ArtistLink extends React.Component{
  render(){
  return(
-    <Card as = {Link} to = {`/artists/${this.props.artist.id}`}>
+    <Card as = {Link} to = {`/artists/${this.props.artist.id}`}centered>
     <Image src={this.props.artist.image} wrapped ui={false} />
     <Card.Content>
       <Card.Header>{this.props.artist.name}</Card.Header>
