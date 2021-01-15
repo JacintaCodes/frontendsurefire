@@ -186,8 +186,8 @@ deleteEventFromSpecificArtist={this.deleteEventFromSpecificArtist}/>
              <Studio />
            </Route>
            <Route path="/songs" exact>
-             {arrayOfSongs.map((singularSongObj)=>{
-               return <iframe src={singularSongObj.link} width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+             {arrayOfSongs.map((singularSongObj,index)=>{
+               return <iframe key = {index} src={singularSongObj.link} width="300" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
              })
             }
            </Route>
